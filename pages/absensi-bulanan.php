@@ -86,18 +86,18 @@ function render_bulanan_table($dbconnect, $kelas_filter, $absen_bulan, $hasil, $
                 $sql = mysqli_query(
                     $dbconnect,
                     "SELECT nisn, nama 
-                     FROM tb_id 
-                     WHERE kelas = '$kelas_filter'
-                     GROUP BY nisn, nama
-                     ORDER BY nama ASC"
+                    FROM tb_id 
+                    WHERE kelas = '$kelas_filter'
+                    GROUP BY nisn, nama
+                    ORDER BY nama ASC"
                 );
             } else {
                 $sql = mysqli_query(
                     $dbconnect,
                     "SELECT nisn, nama 
-                     FROM tb_id 
-                     GROUP BY nisn, nama
-                     ORDER BY nama ASC"
+                    FROM tb_id 
+                    GROUP BY nisn, nama
+                    ORDER BY nama ASC"
                 );
             }
 
