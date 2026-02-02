@@ -6,6 +6,7 @@
 -- Generation Time: Jan 21, 2026 at 06:25 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.0.30
+-- BY Usrname.nang
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -22,7 +23,6 @@ SET time_zone = "+00:00";
 --
 
 -- --------------------------------------------------------
-
 --
 -- Table structure for table `tb_absen`
 --
